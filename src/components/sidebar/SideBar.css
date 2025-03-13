@@ -1,0 +1,63 @@
+.sidebar{
+    padding: 20px;
+    height: 100vh;
+    overflow: auto;
+    background-color:var(--background-color);
+    color: var(--color);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.sidebar #hambur{
+     width: 30px;
+     height: 25px;
+}
+
+.sidebar .common{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.sidebar .newchat {
+    padding: 10px;
+    background-color: var(--btn-background-color);
+    border-radius: 25px;
+    color: var(--btn-color);
+}
+
+.sidebar .recent svg{
+    width: 30px;
+    height: 30px;
+
+}
+
+.sidebar .recent{
+    padding: 8px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.recent:hover{
+    background-color: rgba(140, 157, 167, 0.151);
+}
+
+.newchat:hover{
+     background-color: var(--btn-hover-background-color);
+     color: white;
+}
+
+@media (max-width:700px) {
+    .sidebar {
+        display: none;
+    }
+}

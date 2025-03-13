@@ -1,0 +1,11 @@
+.seprate{
+    width: 3px;
+    height: 100vh;
+    background-color: rgb(100, 107, 112);
+}
+
+@media (max-width:700px) {
+    .seprate {
+        display: none;
+    }
+}
