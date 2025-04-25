@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import SideBar from './components/Sidebar/SideBar';
-import ChatBox from './components/ChatBox/ChatBox';
+import SideBar from './components/sidebar/SideBar';
+import ChatBox from './components/chatBox/ChatBox';
 import Seperation from './components/seperation/Seperation';
 
 
